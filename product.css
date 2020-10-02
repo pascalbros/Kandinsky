@@ -2,6 +2,19 @@
   max-width: 960px;
 }
 
+body {
+  background-color: #f0deb4;
+}
+
+.presentation-header {
+  background-color: #f0deb4;
+}
+
+.mdi-36px {
+     font-size: 39px;
+     margin-right: 10px;
+ }
+
 /*
  * Custom translucent site header
  */
@@ -23,6 +36,35 @@
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
+
+
+.device-shape {
+  overflow: hidden;
+}
+
+.device-shape img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 0%;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 50px 50px 0 0;
+}​
+
+.device-shape-full {
+  overflow: hidden;
+}
+
+.device-shape-full img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    padding: 6px;
+    border-radius: 50px 50px 50px 50px;
+}
 
 .product-device {
   position: absolute;

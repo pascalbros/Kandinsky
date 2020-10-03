@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Museo Slab;
+  src: url(assets/fonts/Museo-Slab.otf);
+}
+
 .container {
   max-width: 960px;
 }
@@ -14,6 +19,10 @@ body {
      font-size: 39px;
      margin-right: 10px;
  }
+
+.title {
+    font-family:Museo Slab;
+}
 
 /*
  * Custom translucent site header
